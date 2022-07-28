@@ -23,7 +23,13 @@ const Produto = ({produto}) => {
 
                 </div>
                 <Typography variant="body2" color='textSecondary'>{produto.description}</Typography>
-            </CardContent>
+                </CardContent>
+            <CardActions disableSpacing className={classes.cardActions}>
+                <IconButton aria-label="Add to Cart">
+                </CardContent>
+            <CardActions disableSpacing className={classes.cardActions}>
+                <IconButton aria-label="Add to Cart">
+                </CardContent>
             <CardActions disableSpacing className={classes.cardActions}>
                 <IconButton aria-label="Add to Cart">
                     
