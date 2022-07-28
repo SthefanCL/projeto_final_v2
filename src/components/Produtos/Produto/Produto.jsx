@@ -15,8 +15,12 @@ const Produto = ({produto}) => {
                 {produto.name}
             </Typography>
             <Typography gutterBottom variant="h5" component="h2">
+                Num: {produto.size}
+            </Typography>
+            <Typography gutterBottom variant="h5" component="h2">
                 R${produto.price}
             </Typography>
+
                 </div>
                 <Typography variant="body2" color='textSecondary'>{produto.description}</Typography>
             </CardContent>
