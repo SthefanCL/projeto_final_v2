@@ -15,7 +15,7 @@ const Produto = ({produto}) => {
                 {produto.name}
             </Typography>
             <Typography gutterBottom variant="h5" component="h2">
-                Num: {produto.size}
+                Tamanho: {produto.size}
             </Typography>
             <Typography gutterBottom variant="h5" component="h2">
                 R${produto.price}
@@ -23,13 +23,7 @@ const Produto = ({produto}) => {
 
                 </div>
                 <Typography variant="body2" color='textSecondary'>{produto.description}</Typography>
-                </CardContent>
-            <CardActions disableSpacing className={classes.cardActions}>
-                <IconButton aria-label="Add to Cart">
-                </CardContent>
-            <CardActions disableSpacing className={classes.cardActions}>
-                <IconButton aria-label="Add to Cart">
-                </CardContent>
+            </CardContent>
             <CardActions disableSpacing className={classes.cardActions}>
                 <IconButton aria-label="Add to Cart">
                     
